@@ -35,7 +35,7 @@ div.stButton > button:first-child {
     background-color: snow; color : blue
 }
 </style>""", unsafe_allow_html=True)
-with open('C:\Python3.10.1\Lib\site-packages\QtDesigner\VsCode Py\surah.txt', 'r') as file:
+with open('surah.txt', 'r') as file:
     kp = file.read()
 
 kp = kp.split('  ')
